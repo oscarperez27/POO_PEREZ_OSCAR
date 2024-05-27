@@ -1,5 +1,8 @@
-x=input("Ingresa la contraseña")
+x=None
 while x!="POO123":
-    print("Vuelve a intentar")
-
+    x=input("Ingresa la contraseña")
+    if x=="POO123":
+        print("Contrseña correcta")
+    else: print("Contrseña incorrecta, vuelva a intentar")
+    
   
