@@ -1,0 +1,26 @@
+while True:
+    print("¿Que area quieres?")
+    print("1.- Sacar el area de un cuadrado")
+    print("2.- Sacar el area de un triangulo")
+    print("3.- Sacar el area de un rectangulo")
+    print("4.- Salir")
+    x=input("Ingrese el numero de opcion deseada")
+    if x=="1":
+        c=float(input("Ingrese la medida de un lado del cuadrado:"))
+        a1=c**2
+        print("El area del cuadrado es:", a1)
+    elif x=="2":
+        t=float(input("Ingrese la altura del triangulo:"))
+        t1=float(input("Ingrese la base del triangulo:"))
+        a2=(t*t1)/2
+        print("El area del triangulo es:", a2)
+    elif x=="3":
+        r=float(input("Ingrese la altura del rectangulo:"))
+        r1=float(input("Ingrese la base del rectangulo:"))
+        a3=r*r1
+        print("El area del triangulo es:", a3)
+    elif x=="4":
+        print("Saliste del programa")
+        break
+    else:
+        ("Ingrese la opcion 1, 2, 3 o 4")
