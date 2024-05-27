@@ -1,0 +1,18 @@
+lista=[20,8,30,45,6,15,13,21,9,18,2]
+infancia=[]
+adolescentes=[]
+jovenes=[]
+adultos=[]
+for edad in lista:
+    if edad>=6 and edad<12:
+        infancia.append(edad)
+    elif edad>=12 and edad<18:
+        adolescentes.append(edad)
+    elif edad>17 and edad<27:
+        jovenes.append(edad)
+    else:
+        adultos.append(edad)
+print("Esta es la lista de edades de infancia:", infancia)
+print("Esta es la lista de edades de adolescentes:", adolescentes)
+print("Esta es la lista de edades de jovenes:", jovenes)
+print("Esta es la lista de edades de adultos:", adultos)
